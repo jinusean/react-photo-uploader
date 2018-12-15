@@ -1,4 +1,8 @@
-src
-demo
+.npmignore
+.idea
+.github
+images/
+yarn.lock
+package-lock.json
+node_modules
 .babelrc
-webpack.demo.config.js

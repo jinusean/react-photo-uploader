@@ -12,3 +12,8 @@ Accepts an `onUpload` prop that is called once a photo is taken, uploaded, or dr
 
 ![](images/component.png)
 
+## Example
+```html
+yarn build
+yarn demo
+```
