@@ -1,8 +1,9 @@
 {
   "name": "react-photo-uploader",
-  "version": "0.6.9",
+  "version": "1.0.0",
   "description": "Upload, drop, take a photo",
   "homepage": "https://gitlab.com/jinusean/react-photo-uploader",
+  "main": "dist/index.js",
   "keywords": [
     "React",
     "Photo",
@@ -10,9 +11,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/jinusean/react-photo-uploader"
+    "url": "git+https://gitlab.com/jinusean/react-photo-uploader.git"
   },
-  "main": "./dist/index.js",
   "license": "MIT",
   "scripts": {
     "build": "webpack --config webpack/webpack.production.js",
@@ -46,5 +46,12 @@
   },
   "externals": {
     "react": "commonjs react"
-  }
+  },
+  "bugs": {
+    "url": "https://gitlab.com/jinusean/react-photo-uploader/issues"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "author": "James C. Lee"
 }
