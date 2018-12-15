@@ -1,5 +1,14 @@
-# jw-react-npm-boilerplate
+# react-photo-uploader
 
-React Boilerplate Component for npm
+Upload, drop, or take a photo.
 
-Documentation and instructions on how to publish a React component to npm available at http://jasonwatmore.com/post/2018/04/14/react-npm-how-to-publish-a-react-component-to-npm
+## Installation
+```
+yarn add react-photo-uploader
+```
+
+## Usage
+Accepts an `onUpload` prop that is called once a photo is taken, uploaded, or dropped into the component
+
+![](images/component.png)
+
