@@ -1,0 +1,20 @@
+.text-hr {
+  $color: #898989;
+
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  .text {
+    color: $color;
+    margin: 0 1rem;
+    line-height: 0;
+  }
+
+  .line {
+    display: inline-block;
+    height: 1px;
+    flex: 1;
+    background: $color;
+  }
+}
